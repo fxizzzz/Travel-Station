@@ -1,0 +1,253 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Century Gothic';
+}
+
+header {
+    background-image: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(grab.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+    ul li {
+        display: inline-block;
+    }
+
+        ul li a {
+            text-decoration: none;
+            color: #fff;
+            padding: 5px 20px;
+            border: 1px solid transparent;
+            transition: 0.6s ease;
+        }
+
+            ul li a:hover {
+                background-color: #D4AF37;
+                color: #fff;
+            }
+
+        ul li.active a {
+            background-color: #D4AF37;
+            color: #fff;
+        }
+
+
+.logo img {
+    float: left;
+    width: 550px;
+    height: auto;
+    margin-top: 25px;
+}
+
+.main {
+    max-width: 1300px;
+    margin: auto;
+}
+
+.tittle {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+}
+
+
+/* Transition image when hover the mouse (Hotel 1) */
+.container {
+    position: relative;
+    width: 450px;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+
+.image {
+    display: block;
+    width: 450px;
+    height: 300px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 450px;
+    height: 300px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.container:hover .overlay {
+    opacity: 0.7;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+/* Transition image when hover the mouse (Hotel 3) */
+.container3 {
+    position: relative;
+    width: 450px;
+    position: absolute;
+    top: 35%;
+    left: 55%;
+}
+
+.image3 {
+    display: block;
+    width: 450px;
+    height: 300px;
+}
+
+.overlay3 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 450px;
+    height: 300px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.container3:hover .overlay3 {
+    opacity: 0.7;
+}
+
+.text3 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Transition image when hover the mouse (Hotel 4) */
+.container4 {
+    position: relative;
+    width: 300px;
+    position: absolute;
+    top: 90%;
+    left: 10%;
+}
+
+.image4 {
+    display: block;
+    width: 450px;
+    height: 300px;
+}
+
+.overlay4 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 450px;
+    height: 300px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.container4:hover .overlay4 {
+    opacity: 0.7;
+}
+
+.text4 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+/* Transition image when hover the mouse (Hotel 6) */
+.container6 {
+    position: relative;
+    width: 450px;
+    position: absolute;
+    top: 90%;
+    left: 55%;
+}
+
+.image6 {
+    display: block;
+    width: 450px;
+    height: 300px;
+}
+
+.overlay6 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 450px;
+    height: 300px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.container6:hover .overlay6 {
+    opacity: 0.7;
+}
+
+.text6 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Body background color */
+
+body {
+    background-image: linear-gradient(to right, rgb(0,0,0), rgba(0,0,0));
+    height: 50vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

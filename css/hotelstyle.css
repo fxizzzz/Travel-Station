@@ -1,0 +1,1700 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Century Gothic';
+}
+
+header {
+    background-image: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(Royale-Chulan.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+    ul li {
+        display: inline-block;
+    }
+
+        ul li a {
+            text-decoration: none;
+            color: #fff;
+            padding: 5px 20px;
+            border: 1px solid transparent;
+            transition: 0.6s ease;
+        }
+
+            ul li a:hover {
+                background-color: #D4AF37;
+                color: #fff;
+            }
+
+        ul li.active a {
+            background-color: #D4AF37;
+            color: #fff;
+        }
+
+
+.logo img {
+    float: left;
+    width: 550px;
+    height: auto;
+    margin-top: 25px;
+}
+
+.main {
+    max-width: 1300px;
+    margin: auto;
+}
+
+.tittle {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+}
+
+.tittle2 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+}
+
+
+/* Royale Chulan Kuala Lumpur */
+
+/* Transition image when hover the mouse (Hotel 1) */
+.container {
+    position: relative;
+    width: 300px;
+    position: absolute;
+    top: 65%;
+    left: 10%;
+}
+
+.image {
+    display: block;
+    width: 300px;
+    height: 188px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 188px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.container:hover .overlay {
+    opacity: 0.7;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Transition image when hover the mouse (Hotel 2) */
+.container2 {
+    position: relative;
+    width: 300px;
+    position: absolute;
+    top: 65%;
+    left: 39%;
+}
+
+.image2 {
+    display: block;
+    width: 300px;
+    height: 188px;
+}
+
+.overlay2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 188px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.container2:hover .overlay2 {
+    opacity: 0.7;
+}
+
+.text2 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Transition image when hover the mouse (Hotel 3) */
+.container3 {
+    position: relative;
+    width: 300px;
+    position: absolute;
+    top: 65%;
+    left: 68%;
+}
+
+.image3 {
+    display: block;
+    width: 300px;
+    height: 188px;
+}
+
+.overlay3 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 188px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.container3:hover .overlay3 {
+    opacity: 0.7;
+}
+
+.text3 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Transition image when hover the mouse (Hotel 4) */
+.container4 {
+    position: relative;
+    width: 300px;
+    position: absolute;
+    top: 105%;
+    left: 10%;
+}
+
+.image4 {
+    display: block;
+    width: 300px;
+    height: 188px;
+}
+
+.overlay4 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 188px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.container4:hover .overlay4 {
+    opacity: 0.7;
+}
+
+.text4 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Transition image when hover the mouse (Hotel 5) */
+.container5 {
+    position: relative;
+    width: 300px;
+    position: absolute;
+    top: 105%;
+    left: 39%;
+}
+
+.image5 {
+    display: block;
+    width: 300px;
+    height: 188px;
+}
+
+.overlay5 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 188px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.container5:hover .overlay5 {
+    opacity: 0.7;
+}
+
+.text5 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Transition image when hover the mouse (Hotel 6) */
+.container6 {
+    position: relative;
+    width: 300px;
+    position: absolute;
+    top: 105%;
+    left: 68%;
+}
+
+.image6 {
+    display: block;
+    width: 300px;
+    height: 188px;
+}
+
+.overlay6 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 188px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.container6:hover .overlay6 {
+    opacity: 0.7;
+}
+
+.text6 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Transition image when hover the mouse (Hotel 7) */
+.container7 {
+    position: relative;
+    width: 300px;
+    position: absolute;
+    top: 145%;
+    left: 10%;
+}
+
+.image7 {
+    display: block;
+    width: 300px;
+    height: 188px;
+}
+
+.overlay7 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 188px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.container7:hover .overlay7 {
+    opacity: 0.7;
+}
+
+.text7 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Transition image when hover the mouse (Hotel 8) */
+.container8 {
+    position: relative;
+    width: 300px;
+    position: absolute;
+    top: 145%;
+    left: 39%;
+}
+
+.image8 {
+    display: block;
+    width: 300px;
+    height: 188px;
+}
+
+.overlay8 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 188px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.container8:hover .overlay8 {
+    opacity: 0.7;
+}
+
+.text8 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Transition image when hover the mouse (Hotel 9) */
+.container9 {
+    position: relative;
+    width: 300px;
+    position: absolute;
+    top: 145%;
+    left: 68%;
+}
+
+.image9 {
+    display: block;
+    width: 300px;
+    height: 188px;
+}
+
+.overlay9 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 188px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.container9:hover .overlay9 {
+    opacity: 0.7;
+}
+
+.text9 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.tittle3 {
+    position: absolute;
+    top: 180%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+}
+
+/* Royale Chulan Damansara */
+
+/* Transition image when hover the mouse (Hotel 10) */
+.container10 {
+    position: relative;
+    width: 300px;
+    position: absolute;
+    top: 185%;
+    left: 10%;
+}
+
+.image10 {
+    display: block;
+    width: 300px;
+    height: 188px;
+}
+
+.overlay10 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 188px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.container10:hover .overlay10 {
+    opacity: 0.7;
+}
+
+.text10 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Transition image when hover the mouse (Hotel 11) */
+.container11 {
+    position: relative;
+    width: 300px;
+    position: absolute;
+    top: 185%;
+    left: 39%;
+}
+
+.image11 {
+    display: block;
+    width: 300px;
+    height: 188px;
+}
+
+.overlay11 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 188px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.container11:hover .overlay11 {
+    opacity: 0.7;
+}
+
+.text11 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Transition image when hover the mouse (Hotel 12) */
+.container12 {
+    position: relative;
+    width: 300px;
+    position: absolute;
+    top: 185%;
+    left: 68%;
+}
+
+.image12 {
+    display: block;
+    width: 300px;
+    height: 188px;
+}
+
+.overlay12 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 188px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.container12:hover .overlay12 {
+    opacity: 0.7;
+}
+
+.text12 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Transition image when hover the mouse (Hotel 13) */
+.container13 {
+    position: relative;
+    width: 300px;
+    position: absolute;
+    top: 225%;
+    left: 10%;
+}
+
+.image13 {
+    display: block;
+    width: 300px;
+    height: 188px;
+}
+
+.overlay13 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 188px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.container13:hover .overlay13 {
+    opacity: 0.7;
+}
+
+.text13 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Transition image when hover the mouse (Hotel 14) */
+.container14 {
+    position: relative;
+    width: 300px;
+    position: absolute;
+    top: 225%;
+    left: 39%;
+}
+
+.image14 {
+    display: block;
+    width: 300px;
+    height: 188px;
+}
+
+.overlay14 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 188px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.container14:hover .overlay14 {
+    opacity: 0.7;
+}
+
+.text14 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Transition image when hover the mouse (Hotel 15) */
+.container15 {
+    position: relative;
+    width: 300px;
+    position: absolute;
+    top: 225%;
+    left: 68%;
+}
+
+.image15 {
+    display: block;
+    width: 300px;
+    height: 188px;
+}
+
+.overlay15 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 188px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.container15:hover .overlay15 {
+    opacity: 0.7;
+}
+
+.text15 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Transition image when hover the mouse (Hotel 16) */
+.container16 {
+    position: relative;
+    width: 300px;
+    position: absolute;
+    top: 265%;
+    left: 10%;
+}
+
+.image16 {
+    display: block;
+    width: 300px;
+    height: 188px;
+}
+
+.overlay16 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 188px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.container16:hover .overlay16 {
+    opacity: 0.7;
+}
+
+.text16 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Transition image when hover the mouse (Hotel 17) */
+.container17 {
+    position: relative;
+    width: 300px;
+    position: absolute;
+    top: 265%;
+    left: 39%;
+}
+
+.image17 {
+    display: block;
+    width: 300px;
+    height: 188px;
+}
+
+.overlay17 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 188px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.container17:hover .overlay17 {
+    opacity: 0.7;
+}
+
+.text17 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Transition image when hover the mouse (Hotel 18) */
+.container18 {
+    position: relative;
+    width: 300px;
+    position: absolute;
+    top: 265%;
+    left: 68%;
+}
+
+.image18 {
+    display: block;
+    width: 300px;
+    height: 188px;
+}
+
+.overlay18 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 188px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.container18:hover .overlay18 {
+    opacity: 0.7;
+}
+
+.text18 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.tittle4 {
+    position: absolute;
+    top: 300%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+}
+
+/* Royale Chulan Bukit Bintang */
+
+/* Transition image when hover the mouse (Hotel 19) */
+.container19 {
+    position: relative;
+    width: 300px;
+    position: absolute;
+    top: 305%;
+    left: 10%;
+}
+
+.image19 {
+    display: block;
+    width: 300px;
+    height: 188px;
+}
+
+.overlay19 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 188px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.container19:hover .overlay19 {
+    opacity: 0.7;
+}
+
+.text19 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Transition image when hover the mouse (Hotel 20) */
+.container20 {
+    position: relative;
+    width: 300px;
+    position: absolute;
+    top: 305%;
+    left: 39%;
+}
+
+.image20 {
+    display: block;
+    width: 300px;
+    height: 188px;
+}
+
+.overlay20 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 188px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.container20:hover .overlay20 {
+    opacity: 0.7;
+}
+
+.text20 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Transition image when hover the mouse (Hotel 21) */
+.container21 {
+    position: relative;
+    width: 300px;
+    position: absolute;
+    top: 305%;
+    left: 68%;
+}
+
+.image21 {
+    display: block;
+    width: 300px;
+    height: 188px;
+}
+
+.overlay21 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 188px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.container21:hover .overlay21 {
+    opacity: 0.7;
+}
+
+.text21 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Transition image when hover the mouse (Hotel 22) */
+.container22 {
+    position: relative;
+    width: 300px;
+    position: absolute;
+    top: 345%;
+    left: 10%;
+}
+
+.image22 {
+    display: block;
+    width: 300px;
+    height: 188px;
+}
+
+.overlay22 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 188px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.container22:hover .overlay22 {
+    opacity: 0.7;
+}
+
+.text22 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Transition image when hover the mouse (Hotel 23) */
+.container23 {
+    position: relative;
+    width: 300px;
+    position: absolute;
+    top: 345%;
+    left: 39%;
+}
+
+.image23 {
+    display: block;
+    width: 300px;
+    height: 188px;
+}
+
+.overlay23 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 188px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.container23:hover .overlay23 {
+    opacity: 0.7;
+}
+
+.text23 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Transition image when hover the mouse (Hotel 24) */
+.container24 {
+    position: relative;
+    width: 300px;
+    position: absolute;
+    top: 345%;
+    left: 68%;
+}
+
+.image24 {
+    display: block;
+    width: 300px;
+    height: 188px;
+}
+
+.overlay24 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 188px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.container24:hover .overlay24 {
+    opacity: 0.7;
+}
+
+.text24 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Transition image when hover the mouse (Hotel 25) */
+.container25 {
+    position: relative;
+    width: 300px;
+    position: absolute;
+    top: 385%;
+    left: 10%;
+}
+
+.image25 {
+    display: block;
+    width: 300px;
+    height: 188px;
+}
+
+.overlay25 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 188px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.container25:hover .overlay25 {
+    opacity: 0.7;
+}
+
+.text25 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Transition image when hover the mouse (Hotel 26) */
+.container26 {
+    position: relative;
+    width: 300px;
+    position: absolute;
+    top: 385%;
+    left: 39%;
+}
+
+.image26 {
+    display: block;
+    width: 300px;
+    height: 188px;
+}
+
+.overlay26 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 188px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.container26:hover .overlay26 {
+    opacity: 0.7;
+}
+
+.text26 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Transition image when hover the mouse (Hotel 27) */
+.container27 {
+    position: relative;
+    width: 300px;
+    position: absolute;
+    top: 385%;
+    left: 68%;
+}
+
+.image27 {
+    display: block;
+    width: 300px;
+    height: 188px;
+}
+
+.overlay27 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 188px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.container27:hover .overlay27 {
+    opacity: 0.7;
+}
+
+.text27 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.tittle5 {
+    position: absolute;
+    top: 420%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+}
+
+/* Royale Chulan The Curve */
+
+/* Transition image when hover the mouse (Hotel 28) */
+.container28 {
+    position: relative;
+    width: 300px;
+    position: absolute;
+    top: 425%;
+    left: 10%;
+}
+
+.image28 {
+    display: block;
+    width: 300px;
+    height: 188px;
+}
+
+.overlay28 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 188px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.container28:hover .overlay28 {
+    opacity: 0.7;
+}
+
+.text28 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Transition image when hover the mouse (Hotel 29) */
+.container29 {
+    position: relative;
+    width: 300px;
+    position: absolute;
+    top: 425%;
+    left: 39%;
+}
+
+.image29 {
+    display: block;
+    width: 300px;
+    height: 188px;
+}
+
+.overlay29 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 188px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.container29:hover .overlay29 {
+    opacity: 0.7;
+}
+
+.text29 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Transition image when hover the mouse (Hotel 30) */
+.container30 {
+    position: relative;
+    width: 300px;
+    position: absolute;
+    top: 425%;
+    left: 68%;
+}
+
+.image30 {
+    display: block;
+    width: 300px;
+    height: 188px;
+}
+
+.overlay30 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 188px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.container30:hover .overlay30 {
+    opacity: 0.7;
+}
+
+.text30 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Transition image when hover the mouse (Hotel 31) */
+.container31 {
+    position: relative;
+    width: 300px;
+    position: absolute;
+    top: 465%;
+    left: 10%;
+}
+
+.image31 {
+    display: block;
+    width: 300px;
+    height: 188px;
+}
+
+.overlay31 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 188px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.container31:hover .overlay31 {
+    opacity: 0.7;
+}
+
+.text31 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Transition image when hover the mouse (Hotel 32) */
+.container32 {
+    position: relative;
+    width: 300px;
+    position: absolute;
+    top: 465%;
+    left: 39%;
+}
+
+.image32 {
+    display: block;
+    width: 300px;
+    height: 188px;
+}
+
+.overlay32 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 188px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.container32:hover .overlay32 {
+    opacity: 0.7;
+}
+
+.text32 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Transition image when hover the mouse (Hotel 33) */
+.container33 {
+    position: relative;
+    width: 300px;
+    position: absolute;
+    top: 465%;
+    left: 68%;
+}
+
+.image33 {
+    display: block;
+    width: 300px;
+    height: 188px;
+}
+
+.overlay33 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 188px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.container33:hover .overlay33 {
+    opacity: 0.7;
+}
+
+.text33 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Transition image when hover the mouse (Hotel 34) */
+.container34 {
+    position: relative;
+    width: 300px;
+    position: absolute;
+    top: 505%;
+    left: 10%;
+}
+
+.image34 {
+    display: block;
+    width: 300px;
+    height: 188px;
+}
+
+.overlay34 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 188px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.container34:hover .overlay34 {
+    opacity: 0.7;
+}
+
+.text34 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Transition image when hover the mouse (Hotel 35) */
+.container35 {
+    position: relative;
+    width: 300px;
+    position: absolute;
+    top: 505%;
+    left: 39%;
+}
+
+.image35 {
+    display: block;
+    width: 300px;
+    height: 188px;
+}
+
+.overlay35 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 188px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.container35:hover .overlay35 {
+    opacity: 0.7;
+}
+
+.text35 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Transition image when hover the mouse (Hotel 36) */
+.container36 {
+    position: relative;
+    width: 300px;
+    position: absolute;
+    top: 505%;
+    left: 68%;
+}
+
+.image36 {
+    display: block;
+    width: 300px;
+    height: 188px;
+}
+
+.overlay36 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 188px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.container36:hover .overlay36 {
+    opacity: 0.7;
+}
+
+.text36 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+/* Body background color */
+
+body {
+    background-image: linear-gradient(to right, rgb(0,0,0), rgba(0,0,0));
+    height: 50vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

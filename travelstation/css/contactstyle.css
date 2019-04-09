@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Century Gothic';
+}
+
+header {
+    background-image: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(background.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+    ul li {
+        display: inline-block;
+    }
+
+        ul li a {
+            text-decoration: none;
+            color: #fff;
+            padding: 5px 20px;
+            border: 1px solid transparent;
+            transition: 0.6s ease;
+        }
+
+            ul li a:hover {
+                background-color: #D4AF37;
+                color: #fff;
+            }
+
+        ul li.active a {
+            background-color: #D4AF37;
+            color: #fff;
+        }
+
+
+.logo img {
+    float: left;
+    width: 550px;
+    height: auto;
+    margin-top: 25px;
+}
+
+.main {
+    max-width: 1300px;
+    margin: auto;
+}
+
+
+.tittle {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+}
+
+/*contact card*/
+.card {
+    position: absolute;
+    top: 60%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+    color: #fff;	
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.info {
+  color: white;
+  font-size: 18px;
+}
+
+.fa-twitter {
+    color: white;
+
+}
+
+.fa-facebook {
+    color: white;
+}
+
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs contact form */
+input[type=text], select, textarea {
+  width: 100%;
+  
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 30px;
+  resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #D4AF37;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: black
+}
+
+
+
+.borang {
+    position: absolute;
+    top: 65%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(0,0,0) , rgba(0,0,0));
+    height: 50vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
